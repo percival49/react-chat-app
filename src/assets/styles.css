@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+
+* {
+  font-family: "Ubuntu", Courier, monospace;
+
+  /* background-color: rgb(255, 255, 255); */
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Helpers */
+.text-default-color {
+  color: rgb(37, 37, 37);
+}
+.flex-grow-1 {
+  flex-grow: 1;
+}
+.center {
+  margin: auto;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+
+  background-color: rgb(19, 230, 230);
+  width: 500px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.container {
+  margin: auto;
+  margin-top: 20px;
+  width: 600px;
+}
+
+.input {
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.button {
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: rgb(247, 247, 247);
+}
+
+.button:active {
+  background-color: rgb(238, 235, 235);
+}
+
+.full-button {
+  width: auto;
+}
+
+.margin-right-5px {
+  margin-right: 5px;
+}
+
+.margin-top-5px {
+  margin-top: 5px;
+}
+
+.display-flex {
+  display: flex;
+}
+
+/*  */
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  gap: 5px;
+}
+
+.send-chat-form {
+  display: flex;
+  margin-top: 10px;
+}
+
+.chatbox {
+  margin-top: 5px;
+  overflow: auto;
+  height: 250px;
+}
+
+ul li {
+  list-style: none;
+}
